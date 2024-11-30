@@ -1,0 +1,856 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    
+
+}
+.react-p{
+    font-size: 80px;
+}
+.p{
+    margin-top:15px;
+    padding: 30px;
+    margin-left:10px ;
+    color: lightskyblue;
+    cursor: pointer;
+     display: flex;
+    list-style: none;
+    font-size: 70px;
+    animation-name: p;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:forwards;
+}
+@keyframes p {
+    0%{
+        color: lightskyblue;
+    }
+    100%{
+        color: darkblue;
+    }
+    
+}
+.p1{
+
+    margin-top:15px;
+    padding: 30px;
+    margin-left:10px ;
+    color: darkblue;
+    cursor: pointer;
+     display: flex;
+    list-style: none;
+    font-size: 70px;
+    animation-name: p1;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:forwards;
+}
+@keyframes p1 {
+    0%{
+        color: darkblue;
+    }
+    100%{
+        color: lightskyblue;
+    }
+    
+}
+
+
+
+.logo{
+font-size: 180px;
+font-weight: bold;
+font-family:   'Roboto',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: black;
+animation-name: logo;
+animation-duration: 4s;
+animation-timing-function: ease-in-out;
+animation-fill-mode:forwards ;
+
+}
+
+@keyframes logo {
+    0%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+}
+
+.logo1{
+    font-size: 180px;
+    font-weight: bold;
+    font-family:'Roboto',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    animation-name: logo1;
+animation-duration: 4s;
+animation-timing-function: ease-in-out;
+animation-fill-mode:forwards ;
+}
+@keyframes logo1 {
+    0%{
+        color: white;
+    }
+    100%{
+        color:black;
+    }
+    
+}
+    
+
+.nav-bar{
+    display: flex;
+}
+
+
+
+
+.sun{
+    height: 150px;
+    width: 150px;
+    margin-left: 90px;
+    border: none;
+    border-radius: 150px;
+    background: yellow;
+    box-shadow:0px 0px 100px  yellow;
+    margin-top:-200px ;
+    position: absolute;
+    animation-name: sun;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+   
+
+}
+ @keyframes sun {
+    0%{
+        margin-top: -200px;
+        opacity: 0;
+    }
+    100%{
+        
+        opacity: 1;
+        margin-top:30px;
+    }
+
+ }
+
+
+
+
+.sunsad{
+margin-left: 90px;
+    
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border: none;
+    border-radius: 150px;
+    background: yellow;
+    box-shadow:0px 0px 100px  yellow;
+    margin-top: 30px;
+    
+    animation-name: sunsad;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+
+
+}
+@keyframes sunsad {
+    0%{
+    
+        opacity: 1;
+        margin-top:30px ;
+    }
+    100%{
+        opacity: 0;
+        margin-top: -200px;
+        display: none;
+    }
+    
+}
+
+
+.moon{
+     
+      
+    margin-top: -200px;
+      
+     
+      background: rgb(213, 213, 213);
+      height: 100px;
+      width: 100px;
+      border-radius: 80px;
+      box-shadow:0px 0px 100px  white;
+      animation-name: moon;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 2s;
+      animation-fill-mode: forwards;
+      cursor: pointer;
+
+
+}
+@keyframes moon {
+    0%{
+        display: none;
+        margin-top: -200px;
+        opacity: 0;
+    }
+    100%{
+margin-top: 30px;
+opacity: 1;
+display: flex;
+
+
+    }
+}
+    .moonsad{
+        
+     
+      
+        margin-top: 30px;
+        
+        background: rgb(213, 213, 213);
+        height: 100px;
+        width: 100px;
+        border-radius: 80px;
+        box-shadow:0px 0px 100px  white;
+        animation-name: moonsad;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        cursor: pointer;
+          
+    }
+@keyframes moonsad {
+    0%{
+opacity: 1;
+margin-top: 30px;
+    }
+    100%{
+        margin-top: -200px;
+opacity: 0;
+display: none;
+
+    }
+    
+}
+
+.react{
+
+  
+    width: 300px;
+    height: 300px;
+    animation: react 4s linear infinite;
+    image-resolution:initial;
+    
+
+}
+
+canvas{
+    height: 500px;
+    width: 1000px;
+   
+}
+
+@keyframes react {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.list1 {
+    list-style: none;
+    display: flex;
+    margin-left: -40px;
+}
+.list1 :first-child{
+    color: rgb(188, 126, 11);
+    text-shadow: 0px 0px 10px rgb(188, 126, 11) ;
+}
+.css{
+    color: blue;
+    text-shadow: 0px 0px 10px blue ;
+
+}
+.sass{
+    color: rgb(255, 0, 157);
+    text-shadow: 0 0 10px  rgb(255, 0, 157) ;
+}
+.js{
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
+}
+.React{
+    color: rgb(0, 191, 255);
+    text-shadow: 0 0 10px rgb(0, 191, 255) ;
+    
+}
+.redux{
+    color: rgb(162, 0, 255);
+    text-shadow: 0 0 10px  rgb(162, 0, 255) ;
+}
+.next{
+    text-shadow: 0 0 10px black;
+}
+.list1 li{
+    padding: 30px;
+    margin-right: 50px;
+    font-size: 50px;
+    
+}
+.list2{
+    list-style: none;
+    display: flex;
+    
+}
+.list2 li {
+    padding: 40px;
+    margin-right: 50px;
+    font-size: 50px;
+}
+.s-middle{
+display: flex;
+    justify-content:space-between;
+}
+.nodejs{
+    mix-blend-mode: multiply;
+    width: 400px;
+    height: 300px;
+
+}
+.Nodejs{
+    color: rgb(47, 255, 57);
+    text-shadow: 0 0 10px rgb(57, 255, 47) ;
+}
+.mongodb{
+    color: lime;
+    text-shadow: 0 0 10px lime;
+}
+.unknown{
+    color: gray;
+    text-shadow: 0 0 10px gray;
+}
+.sql{
+    color:rgb(0, 140, 186);
+    text-shadow: 0 0 10px  rgb(0, 140, 186) ;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.pf{
+    text-align: center;
+    font-size: 5vh;
+}
+.what{
+    mix-blend-mode: multiply;
+    width: 50px;
+    
+}
+.telegram{
+    mix-blend-mode: multiply;
+    width: 50px;
+    margin-left: 100px;
+}
+.what-i-know{
+    font-size: 60px;
+}
+.what-i-know{
+    font-size: 60px;
+}
+.Or{
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+@media (max-width:676px) {
+    .Or{
+        font-size: 3vh;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+@media (max-width:1094px) {
+    .list2 li {
+        padding: 0px;
+        margin-right: 50px;
+        font-size: 50px;
+    }
+}
+@media (max-width:801px) {
+    .list2 li {
+        padding: 0px;
+        margin-right: 50px;
+        font-size: 40px;
+    }
+}
+@media (max-width:753px) {
+    .list2 li{
+        padding: 0px;
+        margin-right: 30px;
+        font-size: 30px;
+    }
+}
+@media (max-width:542px) {
+    .list2 li{
+        padding: 0px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:370px) {
+    .list2 li{
+        padding: 0px;
+        margin-right: 30px;
+        font-size: 10px;
+    }
+}
+@media (max-width:1512px) {
+   .list1 li {
+    padding:40px;
+    margin-right: 40px;
+    font-size: 40px;
+}
+}
+@media (max-width:1454px) {
+    .list1 li {
+        padding: 30px;
+        margin-right: 40px;
+
+        font-size: 30px;
+    } 
+}
+@media (max-width:1144px) {
+    .list1 li {
+        padding: 30px;
+        margin-right: 20px;
+
+        font-size: 30px;
+    } 
+}
+@media (max-width:1008px) {
+    .list1 li {
+        padding: 30px;
+        margin-right: 10px;
+
+        font-size: 30px;
+    } 
+}
+
+
+@media (max-width:933px) {
+    .list1 li {
+        padding: 30px;
+        margin-right: 0px;
+
+        font-size: 30px;
+    } 
+}
+@media (max-width:866px) {
+    .list1 li {
+        padding: 30px;
+        margin-right: 0px;
+        font-size: 20px;
+    } 
+}
+@media (max-width:720px) {
+    .list1 li {
+        padding: 20px;
+        margin-right: 0px;
+        font-size: 20px;
+    } 
+}
+@media (max-width:576px) {
+    .list1 li {
+        padding:10px;
+        margin-right: 0px;
+        font-size: 20px;
+    } 
+}
+@media (max-width:420px) {
+    .list1 li {
+        padding:10px;
+        margin-right: 0px;
+        font-size: 15px;
+    } 
+}
+@media (max-width:350px) {
+    .list1 li {
+        padding:10px;
+        margin-right: 0px;
+        font-size: 10px;
+    } 
+}
+
+@media (max-width:400px) {
+    .what-i-know{
+        font-size: 30px;
+    }
+}
+@media (max-width:1022px) {
+    .react-p{
+        font-size: 10vh;
+    }
+}
+@media (max-width:935px) {
+    .react-p{
+        font-size:7vh ;
+    }
+}
+@media (max-width:624px) {
+    .react-p{
+        font-size:5vh ;
+    }
+}
+@media (max-width:450px) {
+    .react-p{
+        font-size:3vh;
+    }
+}
+
+@media (max-width:1304px) {
+    
+.react{
+    width: 280px;
+    height: 280px;
+    animation: react 4s linear infinite;
+    image-resolution:initial;
+}
+canvas{
+    width: 900px;
+}
+}
+@media (max-width:1271px) {
+    .moon{
+        height: 80px;
+        width: 80px;
+    }
+    .moonsad{
+        height: 70px;
+        width: 70px;
+    }
+    .logo{
+        font-size: 150px;
+    }
+    .logo1{
+        font-size: 150px;
+    }
+    .p{
+    font-size: 60px;
+    }
+    .p1{
+    font-size: 60px;
+    }
+}
+@media (max-width:1196px) {
+    canvas{
+        width: 100vh;
+    }
+}
+
+
+@media (max-width:1118px) {
+    .moon{
+        height: 70px;
+        width: 70px;
+    }
+    .moonsad{
+        height: 70px;
+        width: 70px;
+    }
+    .logo{
+        font-size: 130px;
+    }
+    .logo1{
+        font-size: 130px;
+    }
+    .p{
+    font-size: 40px;
+    }
+    .p1{
+    font-size: 40px;
+    }
+    .sun{
+        height: 120px;
+        width: 120px;
+    }
+    .sunsad{
+        height: 120px;
+    width: 120px;
+    }
+}
+@media (max-width:982px) {
+    canvas{
+        width: 80vh;
+    }
+    .react{
+
+  
+        width: 250px;
+        height: 250px;
+        animation: react 4s linear infinite;
+        image-resolution:initial;
+        
+    
+    }
+}
+
+@media (max-width:801px) {
+    canvas{
+        width: 50vh;
+    }
+    .react{
+
+  
+        width: 250px;
+        height: 250px;
+        animation: react 4s linear infinite;
+        image-resolution:initial;
+        
+    
+    }
+}
+@media (max-width:600px) {
+    canvas{
+        width: 50vh;
+        height: 300px;
+    }
+    .react{
+
+  
+        width: 150px;
+        height: 150px;
+        animation: react 4s linear infinite;
+        image-resolution:initial;
+        
+    
+    }
+}
+@media (max-width:390px) {
+    canvas{
+        width: 40vh;
+        height: 200px;
+    }
+    .react{
+
+  
+        width: 100px;
+        height: 100px;
+        animation: react 4s linear infinite;
+        image-resolution:initial;
+        
+    
+    }
+}
+@media (max-width:572px) {
+    .nodejs{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (max-width:466px) {
+    .nodejs{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (max-width:340px) {
+    .nodejs{
+        width: 125px;
+        height: 125px;
+    }
+}
+@media (max-width:924px) {
+    .moon{
+        height: 50px;
+        width: 50px;
+    }
+    .moonsad{
+        height: 50px;
+        width: 50px;
+    }
+    .logo{
+        font-size: 100px;
+    }
+    .logo1{
+        font-size: 100px;
+    }
+    .p{
+    font-size: 30px;
+    }
+    .p1{
+    font-size: 30px;
+    }
+    .sun{
+        height: 90px;
+        width: 90px;
+    }
+    .sunsad{
+        height: 90px;
+    width: 90px;
+    }
+}
+@media (max-width:743px) {
+    .moon{
+        height: 50px;
+        width: 50px;
+    }
+    .moonsad{
+        height: 50px;
+        width: 50px;
+    }
+    .logo{
+        font-size:100px;
+    }
+    .logo1{
+        font-size: 100px;
+    }
+    .p{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 40px;
+    }
+    .p1{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 40px;
+    }
+    .sun{
+        height: 70px;
+        width: 70px;
+    }
+    .sunsad{
+        height: 70px;
+    width: 70px;
+    }
+}
+@media (max-width:566px) {
+    .moon{
+        height: 50px;
+        width: 50px;
+    }
+    .moonsad{
+        height: 50px;
+        width: 50px;
+    }
+    .logo{
+        font-size:70px;
+    }
+    .logo1{
+        font-size: 70px;
+    }
+    .p{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    }
+    .p1{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    }
+    .sun{
+        height: 70px;
+        width: 70px;
+    }
+    .sunsad{
+        height: 70px;
+    width: 70px;
+    }
+}
+@media (max-width:470px) {
+    .moon{
+        height: 40px;
+        width: 40px;
+    }
+    .moonsad{
+        height: 40px;
+        width: 40px;
+    }
+    .logo{
+        font-size:60px;
+    }
+    .logo1{
+        font-size: 60px;
+    }
+    .p{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    }
+    .p1{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    }
+    .sun{
+        height: 60px;
+        width: 60px;
+        margin-left: 40px;
+    }
+    .sunsad{
+        height: 60px;
+    width: 60px;
+    margin-left: 40px;
+
+    }
+}
+
+@media (max-width:400px) {
+    .moon{
+        height: 35px;
+        width: 35px;
+    }
+    .moonsad{
+        height: 35px;
+        width: 35px;
+    }
+    .logo{
+        font-size:50px;
+    }
+    .logo1{
+        font-size: 50px;
+    }
+    .p{
+    font-size: 18px;
+    padding: 0px;
+    margin-top: 40px;
+    }
+    .p1{
+    font-size: 18px;
+    padding: 0px;
+    margin-top: 40px;
+    }
+    .sun{
+        height: 50px;
+        width: 50px;
+        margin-left: 40px;
+    }
+    .sunsad{
+        height: 50px;
+    width: 50px;
+    margin-left: 40px;
+
+    }
+}
+
+
+
